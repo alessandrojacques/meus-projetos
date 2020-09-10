@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*** Estrutura da pagina ***/
+body, html {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+    height: 100%;
+}
+
+#container {
+   margin: 0 auto;
+   max-width: 1080px;
+   min-width: 720px;
+}
+
+/*** Barra de menu topo ***/
+#topo {
+    background:#294c71;
+    padding: 20px;
+    text-align: right;   
+}
+
+#topo a {
+    color: #fff;
+    padding: 5px;
+}
+
+#topo a:hover {
+    background: cadetblue;
+}
+
+/*** Formatando conteudo ***/
+#conteudo-principal {
+    width: 1080px;
+    margin-top: 80px;
+}
+
+#primario, #racing, #sport {
+    width: 820px;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+
+.caixa {
+    float: left;
+    margin: 5px;
+    font-size: 0.7em;
+}
+
+.caixa a {
+    color: cadetblue;
+}
+
+.caixa a:hover {
+    background: #294c71;
+}
+
+/*** Barra menu lateral ***/
+#menu-lateral {
+    width: 180px;
+    position: relative;
+    margin: 0 0 20px -1016px;
+    float: left;
+    line-height: 30px;
+}
+
+#menu-lateral a {
+    color: cadetblue;
+}
+
+#menu-lateral ul a:hover {
+    background: #294c71;
+    padding-left: 30px;
+}
+
+h2{
+    width: 87px;
+    padding: 5px;
+    text-transform: uppercase;
+    background: #294c71;
+    color: #fff;
+    font-size: 0.9em;
+}
+h3{
+    width: 187px;
+    padding: 5px;
+    font-size: 0.8em;
+    background: #294c71;
+    color: #fff; 
+    margin: 10px 195px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*** Pagina racing e sport ***/
+#racing, #sport {
+    
+    background: #ededf8;
+    display: flex;
+    width: 820px;   
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+/*** Formatando imagens ***/
+.img-fotos {
+    float: left;
+    text-align: center;
+    background: #f5f5ff;
+    cursor: pointer;
+    padding-right: 18px;
+    border: 1px solid #ccc;
+    margin: 0 0 3px 3px;
+}
+
+/*** Formanto imagem, pagina inicial **/
+#foto-principal {
+    text-align: center;
+}
+
+/*** Formatando rodapé ***/
+#rodape {
+    padding: 15px;
+    background: #000;
+    color: #fff;
+}
