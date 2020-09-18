@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+}
+
+/* Estrutura da barra de navegação */
+header{
+	padding: 12px 0;
+	height: 22px;
+	text-align: center;
+	background: green;
+}
+
+nav{
+ 	list-style: none;
+}
+
+nav a {
+ 	color: #fff;
+ 	padding: 12px;
+ 	font-size: 0.8rem;
+}
+
+ nav a:link {
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-weight: bold; 
+}
+
+nav a:hover {
+ 	background: #fff;
+ 	color: #000;	
+}
+
+input{
+	height: 18px;
+	border: 3px solid #fff;
+}
+/***** Fim barra de navegação *****/
+
+/***** Tag aviso *****/
+section#aviso{
+	background: #000;
+	text-align: center;
+	padding: 8px;
+}
+
+#aviso a{
+	
+	background-color: #000;
+	color: red;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+}
+
+#aviso a:link{
+	text-decoration: none;	
+}
+
+#aviso a:hover{
+	color: #fff;
+}
+/**** Fim tag aviso ****/
+
+/******* Lançamentos *******/
+#lancamentos{
+	background: #ccc;
+	padding: 34px;
+}
+
+#lancamentos a{
+	color: green;
+}
+
+ p{
+	 width: 115px;
+	 margin: 0 20px;
+	font-size: 0.7em;
+	margin-top: 9px;	
+	
+}
+
+ #lancamentos ul {
+	height: 82px;
+  	list-style-type: none;
+  	margin: 0px 440px;
+  	text-transform: uppercase;
+}
+
+#lancamentos ul li {
+  	float: left;
+ 	padding: 2px;
+}
+
+ ul li img {
+	margin: 0px 10px 10px 0px;
+	float: left;
+	border-radius: 50px;
+	
+}
+ ul li a {
+  text-decoration: none;
+}
+/**** Fim lançamentos ****/
+
+/**** Destaquess *****/
+.img-dest{ /*  espaçamento entre as imagens de destaques*/
+	margin: 0px 5px 5px;
+	border: 2px solid #ccc;
+}
+
+#destaques{
+	display: block;
+	width: 800px;
+	margin: 3px 440px;
+}
+
+#destaques a:hover{
+	opacity: 0.5;
+}
+/**** Fim destaques *****/
+
+/*** Atualizações ****/
+#atualizacoes{
+	display: block;
+	width: 800px;
+	margin: 3px 440px;
+}
+
+#atualizacoes a {
+	text-decoration: none;
+}
+
+#atualizacoes a:hover{
+	opacity: 0.5;
+	color: #ccc;
+}
+
+.img-att{ /*  espaçamento entre as imagens de atualizações*/
+	margin: 0px 2px;
+	
+}
+
+h4{
+	width: 148px;
+	margin: 8px 440px;
+	background: #000;
+	color: #fff;
+}
+/**** Fim atualizações ****/
+
+/**** Barra lateral ***/
+aside{
+	font-size: 0.9em;
+	float: right;
+	width: 280px;
+	margin: 0px 280px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#pedidos{
+	padding: 12px;
+	margin: 3px;
+	cursor: pointer;
+	background: green;
+}
+
+#escolha{
+	padding: 12px;
+	margin: 3px;
+	background: rgb(90, 90, 90);
+}
+
+#select{
+	width: 274px;
+	padding: 12px;
+	margin: 3px;
+	cursor: pointer;
+}
+
+#curta{
+	width: 274px;
+	margin: 3px;
+	border: 1px solid red;
+	color: green;
+}
+
+.redes-sociais{
+	text-align: center;
+	padding: 5px;
+	line-height: 10px;
+}
+
+.redes-sociais a{
+	text-decoration: none;
+}
+
+h3{
+	font-size: 0.8em;
+}
+/***** Fim barra lateral ****/
+
+/***** Footer *****/
+footer{
+	text-align: center;
+	padding: 10px;
+	background: green;
+	color: #fff;
+}
+
+#rodape{
+	font-size: 0.6em;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+	background: rgb(121, 117, 117);
+	color: #dcdc;
+}
+
+#rodape a{
+	text-decoration: none;
+	 color: #fff;
+}
+/***** Fim footer *****/
